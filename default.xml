@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <!-- This xml is project for make sony targets work with QCOM hardware -->
+  <!-- CM stuff -->
+  <!-- the following commits need to be merged for remove this-->
+  <!-- http://review.cyanogenmod.org/#/c/165272/ | http://review.cyanogenmod.org/#/c/164667/ -->
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
+
+  <project name="SonyCM/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.0" />
+  <project name="SonyCM/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-14.0" />
+
+  <!-- common -->
+  <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.0-caf" />
+
+  <!-- rhine 8974 -->
+  <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.0" />
+  <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.0" />
+  
+  <!-- sony sepolicy -->
+  <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="master" />
+  
+  <!-- kernel 3.10 -->
+  <project name="sonyxperiadev/kernel" path="kernel/sony/msm" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
+
+  <!-- qcom hardware -->
+  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/sony" remote="github" revision="cm-14.0-caf-sony" />
+  <project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/sony" remote="github" revision="cm-14.0-caf-sony" />
+
+  <!-- sony hardware -->
+  <project name="SonyCM/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.0-caf-sony" />
+  <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
+  <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
+  <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
+  <project name="sonyxperiadev/device-sony-common-init" path="hardware/sony/init" remote="github" revision="master" />
+  
+  <!-- vendor -->
+  <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="n" />
+  <project name="SonyAosp/vendor_sony" path="vendor/sony" remote="github" revision="n" />
+  <project name="SonyAosp/vendor_qcom_firmware" path="vendor/qcom/firmware" remote="github" revision="n" />
+</manifest>
