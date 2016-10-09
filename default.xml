@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Please do not manually edit this file-->
 <manifest>
-  <!-- This xml is project for make sony targets work with QCOM hardware -->
+  <!-- This xml is project for make sony targets work with AOSP hardware -->
   <!-- CM stuff -->
-  <!-- the following commits need to be merged for remove this-->
-  <!-- http://review.cyanogenmod.org/#/c/165272/ | http://review.cyanogenmod.org/#/c/164667/ -->
+  <!-- the following commit need to be merged for remove this-->
+  <!-- http://review.cyanogenmod.org/#/c/164667/ -->
   <remove-project name="CyanogenMod/android_bootable_recovery" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_fm" />
+  <remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
 
   <project name="SonyCM/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.0" />
-  <project name="SonyCM/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-14.0" />
+  <project name="sonyxperiadev/packages-apps-FMRadio" path="packages/apps/FMRadio" remote="github" revision="master" />
+
+  <!-- allow kernel to all_prebuilts -->
+  <remove-project name="CyanogenMod/android_build" />
+  <project path="build" name="SonyCM/android_build" groups="pdk,tradefed" remote="github" revision="cm-14.0">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <!-- common -->
-  <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.0-caf" />
+  <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.0" />
 
   <!-- rhine 8974 -->
   <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.0" />
@@ -25,11 +35,12 @@
   <project name="sonyxperiadev/kernel" path="kernel/sony/msm" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
   <!-- qcom hardware -->
-  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/sony" remote="github" revision="cm-14.0-caf-sony" />
-  <project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/sony" remote="github" revision="cm-14.0-caf-sony" />
+  <project name="SonyCM/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="cm-14.0-aosp-sony" />
+  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-14.0-aosp-sony" />
+  <project name="sonyxperiadev/vendor-qcom-opensource-fm" path="hardware/qcom/fm" remote="github" revision="master" />
 
   <!-- sony hardware -->
-  <project name="SonyCM/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.0-caf-sony" />
+  <project name="SonyCM/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.0-aosp-sony" />
   <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
   <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
   <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
