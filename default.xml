@@ -15,12 +15,6 @@
   <project name="SonyCM/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.0" />
   <project name="sonyxperiadev/packages-apps-FMRadio" path="packages/apps/FMRadio" remote="github" revision="master" />
 
-  <!-- allow kernel to all_prebuilts -->
-  <remove-project name="CyanogenMod/android_build" />
-  <project path="build" name="SonyCM/android_build" groups="pdk,tradefed" remote="github" revision="cm-14.0">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <!-- common -->
   <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.0" />
 
