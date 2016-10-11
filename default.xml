@@ -43,5 +43,6 @@
   <!-- vendor -->
   <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="n" />
   <project name="SonyAosp/vendor_sony" path="vendor/sony" remote="github" revision="n" />
+  <project name="SonyAosp/vendor_qcom_extras" path="vendor/qcom/extras" remote="github" revision="cm-14.0" />
   <project name="SonyAosp/vendor_qcom_firmware" path="vendor/qcom/firmware" remote="github" revision="n" />
 </manifest>
