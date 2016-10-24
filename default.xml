@@ -39,6 +39,7 @@
   <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
   <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
   <project name="sonyxperiadev/device-sony-common-init" path="hardware/sony/init" remote="github" revision="master" />
+  <project name="sonyxperiadev/vendor-qcom-opensource-dataservices" path="hardware/sony/dataservices" remote="github" revision="master" />
   
   <!-- vendor -->
   <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="n" />
