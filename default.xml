@@ -29,8 +29,8 @@
   <project name="sonyxperiadev/kernel" path="kernel/sony/msm" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
   <!-- qcom hardware -->
-  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/sony" remote="github" revision="cm-14.1-caf-sony" />
-  <project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/sony" remote="github" revision="cm-14.1-caf-sony" />
+  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="github" revision="cm-14.1-caf-sony" />
+  <project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-14.1-caf-sony" />
 
   <!-- sony hardware -->
   <project name="SonyCM/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.1-caf-sony" />
