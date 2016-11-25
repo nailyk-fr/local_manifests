@@ -20,7 +20,11 @@
   <!-- rhine -->
   <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.1" />
   <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.1" />
-  
+
+  <!-- shinano -->
+  <project name="SonyCM/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1" />
+  <project name="SonyCM/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1" />  
+
   <!-- sony sepolicy -->
   <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="n-mr0" />
   
