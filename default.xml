@@ -9,18 +9,18 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
 
   <project name="SonyCM/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.1" />
-  <project name="SonyCM/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-14.1" />
+  <project name="SonyCM-caf/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-14.1" />
 
   <!-- common -->
-  <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1-caf" />
+  <project name="nailyk-fr/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1-aosp_work2" />
 
   <!-- rhine 8974 -->
-  <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.1" />
-  <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.1" />
+<!--  <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.1" />
+  <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.1" />-->
 
   <!-- shinano 8974 -->
-  <project name="SonyCM/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1" />
-  <project name="SonyCM/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1" />
+  <project name="nailyk-fr/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1_work2" />
+  <project name="nailyk-fr/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1_work2" />
   
   <!-- sony sepolicy -->
   <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="master" />
@@ -30,12 +30,15 @@
 
   <!-- qcom hardware -->
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="github" revision="cm-14.1-caf-sony" />
+  <project name="SonyCM-caf/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="github" revision="cm-14.1-caf-sony" />
+  <project name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-14.1" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media"/>
-  <project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-14.1-caf-sony" />
+  <project name="SonyCM-caf/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="cm-14.1-caf-sony" />
+  <project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="cm-14.1" />
 
   <!-- sony hardware -->
-  <project name="SonyCM/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.1-caf-sony" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
+  <project name="SonyCM/android_hardware_sony_camera" path="hardware/qcom/camera" remote="github" revision="cm-14.1" />
   <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
   <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
   <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
