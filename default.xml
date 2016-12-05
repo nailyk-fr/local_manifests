@@ -10,20 +10,22 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_fm" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
+  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
+<project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
   <project name="SonyCM/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.1" />
   <project name="sonyxperiadev/packages-apps-FMRadio" path="packages/apps/FMRadio" remote="github" revision="master" />
 
   <!-- common -->
-  <project name="SonyCM/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1" />
+  <project name="nailyk-fr/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1-aosp_work2" />
 
   <!-- rhine -->
   <project name="SonyCM/android_device_sony_rhine" path="device/sony/rhine" remote="github" revision="cm-14.1" />
   <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.1" />
 
   <!-- shinano -->
-  <project name="SonyCM/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1" />
-  <project name="SonyCM/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1" />  
+  <project name="nailyk-fr/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1_work" />
+  <project name="nailyk-fr/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1_work2" />
 
   <!-- sony sepolicy -->
   <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="n-mr0" />
