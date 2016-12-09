@@ -4,7 +4,6 @@
   <!-- This xml is project for make sony targets work with AOSP hardware -->
   <!-- CM stuff -->
 
-  <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_fm" />
