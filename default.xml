@@ -15,7 +15,6 @@
 
 <project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
-  <project name="SonyCM/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-14.1" />
   <project name="sonyxperiadev/packages-apps-FMRadio" path="packages/apps/FMRadio" remote="github" revision="master" />
 
   <!-- common -->
