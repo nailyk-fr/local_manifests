@@ -24,8 +24,9 @@
   <project name="SonyCM/android_device_sony_honami" path="device/sony/honami" remote="github" revision="cm-14.1" />
 
   <!-- shinano -->
-  <project name="nailyk-fr/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1_work" />
+  <project name="nailyk-fr/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="cm-14.1_work2" />
   <project name="nailyk-fr/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1_work2" />
+  <project name="doriandiaconu/android_device_sony_aries" path="device/sony/aries" remote="github" revision="master" />
 
   <!-- sony sepolicy -->
   <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="n-mr0" />
