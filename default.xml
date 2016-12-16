@@ -2,6 +2,12 @@
 <!--Please do not manually edit this file-->
 <manifest>
   <!-- This xml is project for make sony targets work with AOSP hardware -->
+
+<!-- Cherry-picks: 
+vendor/cm: https://review.cyanogenmod.org/#/c/175749/ 
+
+-->
+
   <!-- CM stuff -->
 
   <remove-project name="CyanogenMod/android_bootable_recovery" />
