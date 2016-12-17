@@ -4,7 +4,9 @@
   <!-- This xml is project for make sony targets work with AOSP hardware -->
 
 <!-- Cherry-picks: 
-vendor/cm: https://review.cyanogenmod.org/#/c/175749/ 
+vendor/cm:             https://review.cyanogenmod.org/#/c/175749/ 
+hardware/qcom/display: [draft] https://review.cyanogenmod.org/#/c/177603/
+                       [draft] https://review.cyanogenmod.org/#/c/177604/
 
 -->
 
@@ -42,7 +44,7 @@ vendor/cm: https://review.cyanogenmod.org/#/c/175749/
   <project name="sonyxperiadev/vendor-qcom-opensource-fm" path="hardware/qcom/fm" remote="github" revision="master" />
 
   <!-- sony hardware -->
-  <project name="SonyCM/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.1" />
+  <project name="nailyk-fr/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.1" />
   <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
   <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
   <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
