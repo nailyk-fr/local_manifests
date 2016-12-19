@@ -4,9 +4,7 @@
   <!-- This xml is project for make sony targets work with AOSP hardware -->
 
 <!-- Cherry-picks: 
-vendor/cm:             https://review.cyanogenmod.org/#/c/175749/ 
-hardware/qcom/display: [draft] https://review.cyanogenmod.org/#/c/177603/
-                       [draft] https://review.cyanogenmod.org/#/c/177604/
+  https://github.com/AdrianDC/cm_development_sonyaosp/blob/local_manifests/README.md
 
 -->
 
@@ -33,15 +31,6 @@ hardware/qcom/display: [draft] https://review.cyanogenmod.org/#/c/177603/
   <!-- CM stuff -->
   <project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
-
-  <!-- sonyxperiadev -->
-  <remove-project name="CyanogenMod/android_hardware_qcom_fm" />
-  <project name="sonyxperiadev/vendor-qcom-opensource-fm" path="hardware/qcom/fm" remote="github" revision="master" />
-  <remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
-  <project name="sonyxperiadev/packages-apps-FMRadio" path="packages/apps/FMRadio" remote="github" revision="master" />
-
-  <!-- qcom hardware -->
-  
   <!-- vendor -->
   <project name="SonyAosp/vendor_nxp" path="vendor/nxp" remote="github" revision="android-7.0" />
   <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="android-7.0" />
