@@ -20,7 +20,7 @@
 
   <!-- SONY Open Devices Projects -->
   <project name="nailyk-fr/android_device_sony_common-aosp" path="device/sony/common-aosp" remote="github" revision="cm-14.1-ADC_work3" />
-  <project name="nailyk-fr/android_device_sony_leo" path="device/sony/z3" remote="github" revision="cm-14.1-ADC_work3" />
+  <project name="nailyk-fr/android_device_sony_leo" path="device/sony/leo" remote="github" revision="cm-14.1-ADC_work3" />
   <project name="AdrianDC/android_device_sony_sepolicy" path="device/sony/sepolicy" remote="github" />
   <project name="nailyk-fr/android_device_sony_shinano" path="device/sony/shinano-common" remote="github" revision="cm-14.1-ADC_work3" />
 <!--  <project name="AdrianDC/android_kernel_sony_msm" path="kernel/sony/msm" remote="github" />-->
