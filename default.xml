@@ -20,10 +20,9 @@
 
   <!-- SONY Open Devices Projects -->
   <project name="AdrianDC/android_device_sony_common-aosp" path="device/sony/common-aosp" remote="github" />
-  <project name="AdrianDC/android_device_sony_z3" path="device/sony/z3" remote="github" />
-  <project name="AdrianDC/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
+  <project name="nailyk-fr/android_device_sony_leo" path="device/sony/z3" remote="github" revision="cm-14.1-ADC_work" />
   <project name="AdrianDC/android_device_sony_sepolicy" path="device/sony/sepolicy" remote="github" />
-  <project name="AdrianDC/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
+  <project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-14.1-ADC_work" />
 <!--  <project name="AdrianDC/android_kernel_sony_msm" path="kernel/sony/msm" remote="github" />-->
   <!-- kernel 3.10 -->
   <project name="sonyxperiadev/kernel" path="kernel/sony/msm8974" remote="github" revision="aosp/LA.BR.1.3.3_rb2.14" />
