@@ -11,7 +11,7 @@
  <!-- SONY Common Projects -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" />
-  <project name="AdrianDC/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.1_3.10" />
+  <project name="nailyk-fr/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-14.1_work2" />
   <project name="AdrianDC/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="github" />
   <project name="CyanogenMod/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" />
   <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
