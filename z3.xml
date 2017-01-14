@@ -19,5 +19,20 @@
   <project name="AdrianDC/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
   <!--<project path="vendor/qcom/prebuilt" name="vendor-qcom-prebuilt-aosp" groups="device" remote="AdrianDC" revision="master" />
   <project path="vendor/sony" name="vendor-sony-aosp" groups="device" remote="AdrianDC" revision="master" />-->
+    <!-- vendor -->
+  <project name="SonyAosp/vendor_nxp" path="vendor/nxp" remote="github" revision="android-7.0" />
+  <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="android-7.0" />
+  <project name="SonyAosp/vendor_sony" path="vendor/sony" remote="github" revision="android-7.0" />
+<project name="SonyAosp/vendor_qcom_firmware" path="vendor/qcom/firmware" remote="github" revision="android-7.0" />
+
+
+
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+  <project name="sonyxperiadev/packages-apps-FMRadio" path="packages/apps/FMRadio" remote="github" revision="master" />
+
+<remove-project name="LineageOS/android_hardware_qcom_fm" />
+ <project name="sonyxperiadev/vendor-qcom-opensource-fm" path="hardware/qcom/fm" remote="github" revision="master" />
+
+ <project name="sonyxperiadev/vendor-qcom-opensource-location" path="vendor/qcom/opensource/location" remote="github" revision="master" />
 
 </manifest>
