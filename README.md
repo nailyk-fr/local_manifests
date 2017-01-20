@@ -43,5 +43,5 @@ Commits held in this project's branches
 
 ## Sync shared manifest + patch ##
 
-repopick 176123 122216  
+repopick 122216 144688 154333 154334 154335
 repopick -i -t rebrand  
