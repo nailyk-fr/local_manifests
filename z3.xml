@@ -12,10 +12,10 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
 
   <!-- SONY Open Devices Projects -->
-  <project name="AdrianDC/android_device_sony_common-aosp" path="device/sony/common-aosp" remote="github" />
+  <project name="nailyk-fr/android_device_sony_common-aosp" path="device/sony/common-aosp" remote="github" revision="cm-14.1_ADC_z317" />
   <project name="AdrianDC/android_device_sony_sepolicy" path="device/sony/sepolicy" remote="github" />
-  <project name="AdrianDC/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
-  <project name="AdrianDC/android_device_sony_z3" path="device/sony/z3" remote="github" />
+  <project name="nailyk-fr/android_device_sony_shinano" path="device/sony/shinano-common" remote="github" revision="cm-14.1_ADC_z317" />
+  <project name="nailyk-fr/android_device_sony_leo" path="device/sony/z3" remote="github" revision="cm-14.1_ADC_z317" />
   <project name="AdrianDC/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
   <!--<project path="vendor/qcom/prebuilt" name="vendor-qcom-prebuilt-aosp" groups="device" remote="AdrianDC" revision="master" />
   <project path="vendor/sony" name="vendor-sony-aosp" groups="device" remote="AdrianDC" revision="master" />-->
