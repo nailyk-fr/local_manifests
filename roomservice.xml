@@ -4,7 +4,7 @@
            fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
 
 	<!-- vendor files -->
-	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.1" />
+	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" revision="test" />
 
 	<!-- kernel -->
 	<!--<project name="nailyk-fr/android_kernel_sony_msm8974.git" path="kernel/sony/msm8974_old" revision="selinux3" />-->
