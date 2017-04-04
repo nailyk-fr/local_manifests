@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote  name="nailyk_private"
+		fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
+
 	<!-- vendor files -->
 	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" />
 
