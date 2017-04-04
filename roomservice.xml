@@ -7,10 +7,12 @@
 	<project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974"  />
 
 	<!-- device specific -->
-	<project name="Sony-Stock-CM/android_device_sony_z3" path="device/sony/z3" />
-	<project name="Sony-Stock-CM/android_device_sony_z3c" path="device/sony/z3c" />
-	<project name="Sony-Stock-CM/android_device_sony_sirius" path="device/sony/sirius" />
-	<project name="Sony-Stock-CM/android_device_sony_castor_windy" path="device/sony/castor_windy" />
+	<project name="Sony-Stock-CM/android_device_sony_z3" path="device/sony/z3" revision="cm-14.1_twrp" />
+	<project name="Sony-Stock-CM/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1_twrp" />
+	<project name="Sony-Stock-CM/android_device_sony_sirius" path="device/sony/sirius" revision="cm-14.1_twrp" />
+	<project name="Sony-Stock-CM/android_device_sony_castor_windy" path="device/sony/castor_windy" revision="cm-14.1_twrp" />
+
+	<!-- platform specific -->
 	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" />
 
 	<!-- device common -->
@@ -28,5 +30,11 @@
 
 	<!-- common -->
 	<project name="LineageOS/android_external_stlport" path="external/stlport" />
+
+	<!-- twrp -->
+	<project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
+	<remove-project name="LineageOS/android_bootable_recovery" />
+	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" />
+	<project name="android_bootable_zip-recovery" path="external/zip-recovery" remote="nailyk_private" revision="cm-14.1" />
 
 </manifest>
