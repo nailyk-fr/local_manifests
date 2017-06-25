@@ -7,13 +7,13 @@
 		fetch="https://git.choose-a.name/omnirom" />
 
 	<!-- vendor files -->
-	<project name="nailyk-fr/omni_vendor_sony" path="vendor/sony" revision="android-7.1" />
+	<project name="nailyk-fr/omni_vendor_sony" path="vendor/sony" remote="github" revision="android-7.1" />
 
 	<!-- kernel -->
 	<project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="choose" revision="android-7.1" />
 
 	<!-- device specific -->
-	<project name="nailyk-fr/omni_device_sony_leo" path="device/sony/leo" revision="android-7.1" />
+	<project name="nailyk-fr/omni_device_sony_leo" path="device/sony/leo" remote="github" revision="android-7.1" />
 
 	<!-- platform specific -->
 	<project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="choose" revision="android-7.1" />
