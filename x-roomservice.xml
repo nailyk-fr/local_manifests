@@ -44,4 +44,20 @@
 	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" /> -->
 	<project name="android_bootable_zip-recovery" path="external/zip-recovery" remote="nailyk_private" revision="cm-14.1" /> 
 
+
+	<!-- shared -->
+	<project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-7.0" />
+	<project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-7.0" />
+	<project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-7.0" />
+	<project name="android_hardware_sony_camera" path="hardware/sony/camera" remote="omnirom" revision="android-7.1" />
+	<project name="android_external_stlport" path="external/stlport" remote="omnirom" revision="android-7.0" />
+	<project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-7.1" />
+	<project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-7.1" />
+	<project name="android_device_sony_common-headers" path="device/sony/common-headers" remote="omnirom" revision="android-7.1" />
+	<project name="android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="omnirom" revision="android-7.1" />
+	<project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-7.1" />
+	<project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-7.1" />
+	<project name="android_packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="omnirom" revision="android-7.1" />
+	<project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="omnirom" revision="android-7.1" />
+
 </manifest>
