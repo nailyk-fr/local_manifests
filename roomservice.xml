@@ -8,7 +8,7 @@
 
 	<!-- kernel -->
 	<!--<project name="nailyk-fr/android_kernel_sony_msm8974.git" path="kernel/sony/msm8974_old" revision="selinux3" />-->
-	<project name="sony-stock-cm/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1" />
+	<project name="LineageOS/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1" />
 	<!--<project name="nailyk-fr/android_kernel_sony_concept" path="kernel/sony/concept" revision="laos14" />-->
 
 	<!-- device specific -->
