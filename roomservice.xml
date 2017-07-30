@@ -5,7 +5,9 @@
 
 	<!-- vendor files -->
 	<project name="sony-stock-cm/proprietary_vendor_sony" path="vendor/sony" revision="regen_z3dual" />
-	<project name="nailyk-fr/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
+	<project name="Galaxy-Nexus/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
+	<project name="Galaxy-Nexus/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="master" />
+
 
 	<!-- kernel -->
 	<!--<project name="nailyk-fr/android_kernel_sony_msm8974.git" path="kernel/sony/msm8974_old" revision="selinux3" />-->
