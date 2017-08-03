@@ -10,7 +10,7 @@
 		fetch="ssh://git@git.choose-a.name" />
 
 	<!-- vendor files -->
-	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="choosea" revision="android-7.1" />
+	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-7.1" />
 
 
 	<!-- kernel -->
