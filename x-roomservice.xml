@@ -18,7 +18,6 @@
 
 	<!-- device specific -->
 	<project name="android_device_sony_leo" path="device/sony/leo" remote="choose" revision="android-7.1" />
-	<project name="android_device_sony_sirius" path="device/sony/sirius" remote="choose" revision="android-7.1" />
 
 	<!-- platform specific -->
 	<project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="choose" revision="android-7.1" />
