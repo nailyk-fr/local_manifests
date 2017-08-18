@@ -12,7 +12,7 @@
 	<!-- vendor files -->
 	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-7.1" />
 	<project name="DonkeyCoyote/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="android-7.1" />
-	<project name="DonkeyCoyote/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="android-7.1" />
+	<project name="DonkeyCoyote/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="stable" />
 
 	<!-- kernel -->
 	<project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="choose" revision="android-7.1" />
