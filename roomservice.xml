@@ -16,8 +16,8 @@
 	<!--<project name="nailyk-fr/android_kernel_sony_concept" path="kernel/sony/concept" revision="laos14" />-->
 
 	<!-- device specific -->
-	<project name="sony-stock-cm/android_device_sony_amami" path="device/sony/amami" remote="cm-14.1" />
-	<project name="sony-stock-cm/android_device_sony_honami" path="device/sony/honami" remote="cm-14.1" />
+	<project name="sony-stock-cm/android_device_sony_amami" path="device/sony/amami" revision="cm-14.1_twrp"/>
+	<project name="sony-stock-cm/android_device_sony_honami" path="device/sony/honami" revision="cm-14.1_twrp" />
 	<project name="sony-stock-cm/android_device_sony_z3" path="device/sony/z3" revision="cm-14.1_twrp" />
 	<project name="sony-stock-cm/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1_twrp" />
 	<project name="sony-stock-cm/android_device_sony_z3dual" path="device/sony/z3dual" revision="cm-14.1_twrp" />
