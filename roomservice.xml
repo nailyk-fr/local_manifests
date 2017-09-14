@@ -4,7 +4,7 @@
            fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
 
 	<!-- vendor files -->
-	<project name="sony-stock-cm/proprietary_vendor_sony" path="vendor/sony" revision="regen_z3dual" />
+	<project name="sony-stock-cm/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.1" />
 	<project name="Galaxy-Nexus/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
 	<project name="Galaxy-Nexus/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="master" />
 
