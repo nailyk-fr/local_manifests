@@ -31,7 +31,6 @@
 	<project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="choose" revision="android-7.1" />
 
 	<!-- sony common -->
-	<project name="android_device_sony_common" path="device/sony/common" remote="choose" revision="android-7.1" />
 	<project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote = "omnirom" revision="android-7.1"/>
 	<project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-7.1" />
 	<project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-7.1" />
