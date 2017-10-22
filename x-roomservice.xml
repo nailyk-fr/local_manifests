@@ -19,8 +19,8 @@
 	<!--<project name="android_kernel_ti_omap4" path="kernel/ti/omap4" remote="omnirom" revision="android-8.0" />-->
 
 	<!-- device specific -->
-	<project name="android_device_sony_leo" path="device/sony/leo" remote="choose" revision="android-8.0" />
-	<project name="android_device_sony_aries" path="device/sony/aries" remote="choose" revision="android-8.0" />
+	<project name="android_device_sony_leo" path="device/sony/z3" remote="choose" revision="android-8.0" />
+	<project name="android_device_sony_aries" path="device/sony/z3c" remote="choose" revision="android-8.0" />
 	<!--<project name="android_device_samsung_maguro" path="device/samsung/maguro" remote="omnirom" revision="android-8.0" />-->
 
 	<!-- platform specific -->
