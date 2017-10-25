@@ -31,12 +31,13 @@
 	<project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="choose" revision="android-8.0" />
 
 	<!-- sony common -->
-	<project name="android_device_sony_sepolicy" path="device/sony/sepolicy" remote = "omnirom" revision="android-8.0"/>
 	<project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote = "omnirom" revision="android-8.0"/>
 	<project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-8.0" />
 	<project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-8.0" />
 	<project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-8.0" />	
 	<project name="android_hardware_qcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-7.1" />
+	<project name="android_vendor_broadcom_bt-fm" path="vendor/broadcom/bt-fm" remote="choose" revision="android-8.0" />
+	<project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.0" />
 
 	<!-- common -->
 <!--	<project name="LineageOS/android_external_stlport" path="external/stlport" /> -->
