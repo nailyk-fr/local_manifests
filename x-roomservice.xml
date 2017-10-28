@@ -3,40 +3,34 @@
 	<remote  name="nailyk_private"
 		fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
 
-	<remote name="choose" 
-		fetch="https://git.choose-a.name/omnirom" />
-
-	<remote name="choosea"
-		fetch="ssh://git@git.choose-a.name" />
-
 	<!-- vendor files -->
 	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-8.0" />
 	<project name="DonkeyCoyote/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="android-7.1" />
 	<project name="DonkeyCoyote/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="stable" />
 
 	<!-- kernel -->
-	<project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="choose" revision="android-8.0" />
+	<project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.0" />
 	<!--<project name="android_kernel_ti_omap4" path="kernel/ti/omap4" remote="omnirom" revision="android-8.0" />-->
 
 	<!-- device specific -->
-	<project name="android_device_sony_leo" path="device/sony/z3" remote="choose" revision="android-8.0" />
-	<project name="android_device_sony_aries" path="device/sony/z3c" remote="choose" revision="android-8.0" />
+	<project name="android_device_sony_z2" path="device/sony/z2" remote="omnirom" revision="android-8.0" />
+	<project name="android_device_sony_z3" path="device/sony/z3" remote="omnirom" revision="android-8.0" />
+	<project name="android_device_sony_z3c" path="device/sony/z3c" remote="omnirom" revision="android-8.0" />
 	<!--<project name="android_device_samsung_maguro" path="device/samsung/maguro" remote="omnirom" revision="android-8.0" />-->
 
 	<!-- platform specific -->
-	<project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="choose" revision="android-8.0" />
+	<project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-8.0" />
 	<!--<project name="android_device_samsung_tuna" path="device/samsung/tuna" remote="omnirom" revision="android-8.0" />-->
 
 	<!-- device common -->
-	<project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="choose" revision="android-8.0" />
+	<project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-8.0" />
 
 	<!-- sony common -->
 	<project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote = "omnirom" revision="android-8.0"/>
 	<project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-8.0" />
 	<project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-8.0" />
 	<project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-8.0" />	
-	<project name="android_hardware_qcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-7.1" />
-	<project name="android_vendor_broadcom_bt-fm" path="vendor/broadcom/bt-fm" remote="choose" revision="android-8.0" />
+	<project name="android_hardware_qcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-7.0" />
 	<project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.0" />
 
 	<!-- common -->
