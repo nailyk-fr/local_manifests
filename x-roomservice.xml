@@ -21,6 +21,7 @@
 	<!-- device specific -->
 	<project name="android_device_sony_leo" path="device/sony/z3" remote="choose" revision="android-7.1" />
 	<project name="android_device_sony_aries" path="device/sony/z3c" remote="choose" revision="android-7.1" />
+	<project name="android_device_sony_sirius" path="device/sony/sirius" remote="choose" revision="android-7.1" />
 	<project name="android_device_samsung_maguro" path="device/samsung/maguro" remote="omnirom" revision="android-7.1" />
 
 	<!-- platform specific -->
