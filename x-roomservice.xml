@@ -3,12 +3,6 @@
 	<remote  name="nailyk_private"
 		fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
 
-       <remote name="choose"
-               fetch="https://git.choose-a.name/omnirom" />
-
-       <remote name="choosea"
-               fetch="ssh://git@git.choose-a.name" />
-	
 	<!-- vendor files -->
 	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-8.0" />
 	<project name="DonkeyCoyote/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="android-7.1" />
@@ -36,8 +30,7 @@
 	<project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-8.0" />
 	<project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-8.0" />
 	<project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-8.0" />	
-        <project name="android_hardware_qcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-7.1" />
-        <project name="android_vendor_broadcom_bt-fm" path="vendor/broadcom/bt-fm" remote="choose" revision="android-8.0" />
+	<project name="android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-7.0" />
 	<project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.0" />
 
 	<!-- common -->
