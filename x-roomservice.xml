@@ -37,9 +37,9 @@
 <!--	<project name="LineageOS/android_external_stlport" path="external/stlport" /> -->
 
 	<!-- twrp -->
-<!--	<project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
-	<remove-project name="LineageOS/android_bootable_recovery" />
-	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-8.0" /> -->
+	<project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-8.0" /> 
+	<remove-project name="platform/bootable/recovery" />
+	<project name="android_bootable_recovery" path="bootable/recovery" remote="omnirom" revision="android-8.0" />
 	<project name="android_bootable_zip-recovery" path="external/zip-recovery" remote="nailyk_private" revision="cm-14.1" /> 
 
 
