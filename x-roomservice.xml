@@ -20,6 +20,7 @@
 	<project name="android_device_sony_z3c" path="device/sony/z3c" remote="omnirom" revision="android-8.0" />
 	<!--<project name="android_device_samsung_maguro" path="device/samsung/maguro" remote="omnirom" revision="android-8.0" />-->
 	<project name="android_device_oneplus_oneplus5" path="device/oneplus/oneplus5" remote="omnirom" revision="android-8.0" />
+	<project name="android_device_oneplus_oneplus5t" path="device/oneplus/oneplus5t" remote="omnirom" revision="android-8.0" />
 
 	<!-- platform specific -->
 	<project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-8.0" />
