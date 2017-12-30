@@ -35,7 +35,7 @@
   <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_interfaces_legacy" path="hardware/interfaces_legacy" remote="omnirom" revision="android-8.0" />
-  <project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-8.0" />
+  <project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-8.1" />
 
   <!-- HALs -->
   <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-8.1" />
