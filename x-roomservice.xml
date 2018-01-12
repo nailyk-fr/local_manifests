@@ -6,8 +6,8 @@
 	<!-- vendor files -->
 	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-8.1" />
 	<project name="DonkeyCoyote/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="android-8.1" />
-  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="omnirom" revision="android-8.0" />
-  <project name="android_vendor_nxp-nfc_interfaces_opensource_nfc" path="vendor/nxp-nfc/interfaces/opensource/nfc" remote="omnirom" revision="android-8.0" />
+  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="omnirom" revision="android-8.1" />
+  <project name="android_vendor_nxp-nfc_interfaces_opensource_nfc" path="vendor/nxp-nfc/interfaces/opensource/nfc" remote="omnirom" revision="android-8.1" />
   <project name="android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="omnirom" revision="android-8.0" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="omnirom" revision="android-8.1" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="omnirom" revision="android-8.1" />
@@ -44,7 +44,7 @@
   <project name="android_hardware_qcom_display-caf-msm8998" path="hardware/qcom/display-caf-msm8998" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_media-caf-msm8998" path="hardware/qcom/media-caf-msm8998" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.0" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.1" />
 
   <!-- Ant -->
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="omnirom" revision="android-8.0" />
