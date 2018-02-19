@@ -24,7 +24,7 @@
   <!-- Boards -->
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-8.1" />
   <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-8.1" />
-  <project name="nailyk-fr/device_htc_m7-common" path="device/htc/m7" remote="github" revision="android-8.1" />
+  <project name="nailyk-fr/device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="android-8.1" />
 
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
