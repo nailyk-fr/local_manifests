@@ -23,7 +23,7 @@
 	<project name="LineageOS/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1" />
 	<project name="LineageOS/android_device_sony_z3dual" path="device/sony/z3dual" revision="cm-14.1" />
 	<project name="Galaxy-Nexus/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
-	<project name="Lenovo-A10-30-project/android_device_huawei_y560" path="device/lenovo/y560" remote="github" />
+	<project name="Lenovo-A10-30-project/android_device_huawei_y560" path="device/lenovo/achilles" remote="github" />
 
 	<!-- device common -->
 	<project name="sony-stock-cm/android_device_sony_rhine-common" path="device/sony/rhine-common" />
