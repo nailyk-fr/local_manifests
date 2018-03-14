@@ -12,6 +12,8 @@
   <project name="android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="omnirom" revision="android-8.0" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="omnirom" revision="android-8.1" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="omnirom" revision="android-8.1" />
+  <project name="sonyxperiadev/vendor-nxp" path="vendor/nxp" remote="github" revision="android-8.1" />
+  <project name="sonyxperiadev/vendor-qcom" path="vendor/qcom" remote="github" revision="android-8.1" />
 
   <!-- Devices -->
   <project name="android_device_sony_z3" path="device/sony/z3" remote="omnirom" revision="android-8.1" />
