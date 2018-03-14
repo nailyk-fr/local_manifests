@@ -37,6 +37,7 @@
   <!-- Sony -->
   <project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-8.1" />
   <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-8.1" />
+  <project name="android_device_sony_sepolicy" path="device/sony/sepolicy" remote="omnirom" revision="android-8.1" />
   <project name="android_device_sony_common" path="device/sony/common" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-8.1" />
