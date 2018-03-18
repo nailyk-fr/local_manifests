@@ -31,7 +31,7 @@
 
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="https://github.com/bartcubbins/kernel" path="kernel/sony/msm" remote="github" revision="1.3.3-tulip" />
+  <project name="bartcubbins/kernel" path="kernel/sony/msm" remote="github" revision="1.3.3-tulip" />
   <project name="android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="android-8.1" />
 
