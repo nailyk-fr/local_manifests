@@ -5,7 +5,6 @@
 
 	<!-- vendor files -->
 	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-8.1" />
-	<project name="DonkeyCoyote/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="android-8.1" />
 	<project name="nailyk-fr/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="android-8.1" />
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="omnirom" revision="android-8.1" />
   <project name="android_vendor_nxp-nfc_interfaces_opensource_nfc" path="vendor/nxp-nfc/interfaces/opensource/nfc" remote="omnirom" revision="android-8.1" />
