@@ -19,19 +19,16 @@
   <project name="android_device_sony_z3" path="device/sony/z3" remote="omnirom" revision="android-8.1" />
   <project name="android_device_sony_z2" path="device/sony/z2" remote="omnirom" revision="android-8.1" />
   <project name="android_device_sony_z3c" path="device/sony/z3c" remote="omnirom" revision="android-8.1" />
-  <project name="nailyk-fr/android_device_sony_m4aqua" path="device/sony/m4aqua" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/device_htc_m7" path="device/htc/m7" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="android-8.1" />
 
   <!-- Boards -->
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-8.1" />
   <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-8.1" />
-  <project name="nailyk-fr/android_device_sony_kanuti" path="device/sony/kanuti" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="android-8.1" />
 
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="bartcubbins/kernel" path="kernel/sony/msm" remote="github" revision="1.3.3-tulip" />
   <project name="nailyk-fr/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-8.1" />
 
