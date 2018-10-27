@@ -32,7 +32,6 @@
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
   <project name="bartcubbins/kernel" path="kernel/sony/msm" remote="github" revision="1.3.3-tulip" />
-  <project name="android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-8.1" />
 
@@ -51,15 +50,12 @@
   <project name="nailyk-fr/android_hardware_qcom_audio-caf-msm8916" path="hardware/qcom/audio-caf-msm8916" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_audio-caf-msm8960" path="hardware/qcom/audio-caf-msm8960" remote="github" revision="android-8.1" />
   <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_audio-caf-msm8998" path="hardware/qcom/audio-caf-msm8998" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_display-caf-msm8916" path="hardware/qcom/display-caf-msm8916" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_display-caf-msm8960" path="hardware/qcom/display-caf-msm8960" remote="github" revision="android-8.1" />
   <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_display-caf-msm8998" path="hardware/qcom/display-caf-msm8998" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_media-caf-msm8916" path="hardware/qcom/media-caf-msm8916" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_media-caf-msm8960" path="hardware/qcom/media-caf-msm8960" remote="github" revision="android-8.1" />
   <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_media-caf-msm8998" path="hardware/qcom/media-caf-msm8998" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.1" />
 
   <!-- Ant -->
