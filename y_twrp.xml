@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remove-project name="platform/bootable/recovery" />
-	<project name="android_bootable_recovery" path="bootable/recovery" remote="omnirom" revision="android-8.1" />
+	<project name="android_bootable_recovery" path="bootable/recovery" remote="omnirom" revision="android-9.0" />
 
 
 </manifest>
