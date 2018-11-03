@@ -15,29 +15,29 @@
   <project name="DonkeyCoyote/proprietary_vendor_qcom_binaries" path="vendor/qcom" remote="github" revision="android-8.0" />
 
   <!-- Devices -->
-  <project name="android_device_sony_z3" path="device/sony/z3" remote="omnirom" revision="android-8.1" />
-  <project name="android_device_sony_z2" path="device/sony/z2" remote="omnirom" revision="android-8.1" />
-  <project name="android_device_sony_z3c" path="device/sony/z3c" remote="omnirom" revision="android-8.1" />
+  <project name="android_device_sony_z3" path="device/sony/z3" remote="omnirom" revision="android-9.0" />
+  <project name="android_device_sony_z2" path="device/sony/z2" remote="omnirom" revision="android-9.0" />
+  <project name="android_device_sony_z3c" path="device/sony/z3c" remote="omnirom" revision="android-9.0" />
   <project name="nailyk-fr/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="android-8.1" />
 
   <!-- Boards -->
-  <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-8.1" />
-  <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-8.1" />
+  <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-9.0" />
+  <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-9.0" />
 
   <!-- Kernels -->
-  <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
+  <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-9.0" />
   <project name="nailyk-fr/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-8.1" />
 
   <!-- Sony -->
   <project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-8.1" />
-  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-8.1" />
-  <project name="android_device_sony_sepolicy" path="device/sony/sepolicy" remote="omnirom" revision="android-8.1" />
+  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-9.0" />
+  <project name="android_device_sony_sepolicy" path="device/sony/sepolicy" remote="omnirom" revision="android-9.0" />
   <project name="android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="omnirom" revision="android-9.0" />
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-9.0" />
   <project name="android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_interfaces_legacy" path="hardware/interfaces_legacy" remote="omnirom" revision="android-8.0" />
-  <project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-9.0" />
 
   <!-- HALs -->
   <project name="nailyk-fr/android_hardware_qcom_audio-caf-msm8916" path="hardware/qcom/audio-caf-msm8916" remote="github" revision="android-8.1" />
@@ -48,8 +48,8 @@
   <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_media-caf-msm8916" path="hardware/qcom/media-caf-msm8916" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_hardware_qcom_media-caf-msm8960" path="hardware/qcom/media-caf-msm8960" remote="github" revision="android-8.1" />
-  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-9.0" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-9.0" />
 
   <!-- Ant -->
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="omnirom" revision="android-8.1" />
@@ -58,6 +58,6 @@
 
   <!-- Apps -->
   <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="omnirom" revision="android-8.0" />
-  <project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.0" />
+  <project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-9.0" />
 
 </manifest>
