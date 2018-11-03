@@ -38,8 +38,8 @@
 
   <!-- HALs -->
   <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-8.1" />
-  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-9.0" />
+  <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-9.0" />
+  <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-9.0" />
 
   <!-- Ant -->
