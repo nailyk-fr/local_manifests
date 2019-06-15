@@ -7,7 +7,6 @@
 	<project name="nailyk-fr/omni_vendor_sony" path="vendor/sony" remote="github" revision="android-9.0" />
 
   <project name="android_vendor_nxp-nfc_interfaces_opensource_nfc" path="vendor/nxp-nfc/interfaces/opensource/nfc" remote="omnirom" revision="android-9.0" />
-  <project name="android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="omnirom" revision="android-9.0" />
   <project name="android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="omnirom" revision="android-9.0" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="omnirom" revision="android-9.0" />
   <project name="DonkeyCoyote/proprietary_vendor_qcom_binaries" path="vendor/qcom" remote="github" revision="android-8.0" />
