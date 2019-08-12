@@ -15,16 +15,13 @@
   <project name="android_device_sony_z3" path="device/sony/z3" remote="omnirom" revision="android-9.0" />
   <project name="android_device_sony_z2" path="device/sony/z2" remote="omnirom" revision="android-9.0" />
   <project name="android_device_sony_z3c" path="device/sony/z3c" remote="omnirom" revision="android-9.0" />
-  <project name="nailyk-fr/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="android-9.0" />
 
   <!-- Boards -->
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-9.0" />
   <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-9.0" />
-  <project name="nailyk-fr/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="android-9.0" />
 
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-9.0" />
-  <project name="nailyk-fr/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="android-9.0" />
 
   <!-- Sony -->
   <project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-8.1" />
@@ -36,15 +33,11 @@
   <project name="android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="omnirom" revision="android-9.0" />
   <project name="android_hardware_interfaces_legacy" path="hardware/interfaces_legacy" remote="omnirom" revision="android-8.0" />
   <project name="android_hardware_sony_location" path="hardware/sony/location" remote="omnirom" revision="android-9.0" />
-  <project name="nailyk-fr/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="android-9.0" />
 
   <!-- HALs -->
   <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-9.0" />
   <project name="nailyk-fr/android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="github" revision="android-9.0" />
-  <project name="android_hardware_qcom_audio-caf-msm8998" path="hardware/qcom/audio-caf-msm8998" remote="omnirom" revision="android-9.0" />
-  <project name="android_hardware_qcom_display-caf-msm8998" path="hardware/qcom/display-caf-msm8998" remote="omnirom" revision="android-9.0" />
-  <project name="android_hardware_qcom_media-caf-msm8998" path="hardware/qcom/media-caf-msm8998" remote="omnirom" revision="android-9.0" />
   <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="omnirom" revision="android-9.0" />
   <project name="android_vendor_qcom_opensource_commonsys" path="vendor/qcom/opensource/commonsys" remote="omnirom" revision="android-9.0" />
 
