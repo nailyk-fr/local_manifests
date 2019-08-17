@@ -38,7 +38,6 @@
   <project name="android_hardware_qcom_audio-caf-msm8974" path="hardware/qcom/audio-caf-msm8974" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_display-caf-msm8974" path="hardware/qcom/display-caf-msm8974" remote="omnirom" revision="android-9.0" />
   <project name="nailyk-fr/android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="github" revision="android-9.0" />
-  <project name="android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="omnirom" revision="android-9.0" />
   <project name="android_vendor_qcom_opensource_commonsys" path="vendor/qcom/opensource/commonsys" remote="omnirom" revision="android-9.0" />
 
 
