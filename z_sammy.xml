@@ -4,6 +4,9 @@
   <remote  name="carbon-fusion"
     fetch="https://code.binbash.rocks:8443/MVA-VoLTE/" />
 
+  <remote  name="nailyk"
+    fetch="https://github.com/nailyk-fr/" />
+
   <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="carbon-fusion" revision="lineage-15.1" />
   <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="carbon-fusion" revision="lineage-15.1" />
   <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="carbon-fusion" revision="lineage-15.1" />
@@ -14,8 +17,8 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 
-  <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="carbon-fusion" revision="lineage-15.1" />
-  <project name="android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="carbon-fusion" revision="lineage-15.1" />
+  <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="nailyk" revision="lineage-15.1" />
+  <project name="android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="nailyk" revision="lineage-15.1" />
   <project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="carbon-fusion" revision="lineage-15.1" />
   <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="carbon-fusion" revision="lineage-15.1" />
 </manifest>
