@@ -3,10 +3,17 @@
 	<remote  name="nailyk_private"
 		fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
 
+    <remote  name="carbon-fusion"
+        fetch="https://code.binbash.rocks:8443/MVA-VoLTE/" />
+
+    <remote  name="nailyk"
+        fetch="https://github.com/nailyk-fr/" />
+
 	<!-- vendor files -->
 	<project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-8.1" />
 	<project name="nailyk-fr/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="android-8.1" />
 	<project name="DonkeyCoyote/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="android-8.1" />
+    <project name="android_vendor_samsung" path="vendor/samsung" remote="carbon-fusion" revision="android-8.1" />
 
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="omnirom" revision="android-8.1" />
   <project name="android_vendor_nxp-nfc_interfaces_opensource_nfc" path="vendor/nxp-nfc/interfaces/opensource/nfc" remote="omnirom" revision="android-8.1" />
@@ -24,12 +31,14 @@
   <project name="android_device_oneplus_oneplus5" path="device/oneplus/oneplus5" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/device_htc_m7" path="device/htc/m7" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="android-8.1" />
+  <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="carbon-fusion" revision="android-8.1" />
 
   <!-- Boards -->
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" remote="omnirom" revision="android-8.1" />
   <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_device_sony_kanuti" path="device/sony/kanuti" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="android-8.1" />
+  <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="carbon-fusion" revision="android-8.1" />
 
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
@@ -37,6 +46,7 @@
   <project name="android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="omnirom" revision="android-8.1" />
   <project name="nailyk-fr/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-8.1" />
+  <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="carbon-fusion" revision="android-8.1" />
 
   <!-- Sony -->
   <project name="android_device_sony_common-init" path="device/sony/common-init" remote="omnirom" revision="android-8.1" />
@@ -63,6 +73,10 @@
   <project name="android_hardware_qcom_media-caf-msm8974" path="hardware/qcom/media-caf-msm8974" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_media-caf-msm8998" path="hardware/qcom/media-caf-msm8998" remote="omnirom" revision="android-8.1" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.1" />
+  <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="nailyk" revision="android-8.1" />
+  <project name="android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="nailyk" revision="android-8.1" />
+  <project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="carbon-fusion" revision="android-8.1" />
+  <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="carbon-fusion" revision="android-8.1" />
 
   <!-- Ant -->
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="omnirom" revision="android-8.1" />
