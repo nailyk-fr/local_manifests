@@ -39,6 +39,7 @@
   <project name="nailyk-fr/android_device_sony_kanuti" path="device/sony/kanuti" remote="github" revision="android-8.1" />
   <project name="nailyk-fr/device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="android-8.1" />
   <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="carbon-fusion" revision="android-8.1" />
+  <project name="nailyk-fr/android_hardware_samsung" path="hardware/samsung" remote="github" revision="android-8.1" />
 
   <!-- Kernels -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="omnirom" revision="android-8.1" />
