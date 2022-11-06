@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="nailyk-fr/android_device_sony_bahamut" path="device/sony/bahamut" remote="github" />
+  <project name="nailyk-fr/android_vendor_sony_bahamut" path="vendor/sony/bahamut" remote="github" />
+  <project name="nailyk-fr/android_kernel_sony_sm8150"  path="kernel/sony/sm8150"  remote="github" revision="stock-import" />
+
+</manifest>
+
