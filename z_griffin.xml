@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="voidanix/device-sony-griffin"                path="device/sony/griffin" remote="voidanix" />
+  <project name="voidanix/android_device_sony_sm8150-common"  path="device/sony/sm8150-common" remote="voidanix" />
+
+  <project name="voidanix/android_kernel_sony_msm"            path="kernel/sony/sm8150"  remote="voidanix" />
+
+
+  <project name="voidanix/android_vendor_sony_griffin"        path="vendor/sony/griffin" remote="voidanix" />
+  <project name="voidanix/android_vendor_sony_sm8150-common"  path="vendor/sony/sm8150-common" remote="voidanix" />
+
+
+  <project path="hardware/sony" name="lineageos/android_hardware_sony" remote="github" />
+</manifest>
+
