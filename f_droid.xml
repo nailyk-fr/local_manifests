@@ -8,5 +8,5 @@
     <!-- F-Droid -->
     <project name="android_vendor_fdroid" path="vendor/fdroid" remote="fdroid" revision="master" />
     <!-- Privileged Extension -->
-  <project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.9" />
+  <project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.13" />
 </manifest>
