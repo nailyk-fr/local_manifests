@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- documentation https://gitlab.com/fdroid/fdroidclient/-/issues/1780 -->
+
+<manifest>
+    <!-- Gitlab -->
+  <remote name="voidanix" fetch="https://git.keyedlimepie.org/" />
+</manifest>
